@@ -1,0 +1,36 @@
+.dados {
+  display: block;
+  width: 100%;
+}
+
+.dados table {
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.dados table col:nth-child(1) {
+  width: 30%;
+}
+
+.dados table col:nth-child(2) {
+  width: 70%;
+}
+
+.dados table tr {
+  background-color: #ededed;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.dados table td {
+  border: 3px solid white;
+  padding: 5px 10px;
+}
+
+.dados table input,
+.dados table textarea,
+.dados table select {
+  font: inherit;
+  width: 100%;
+}

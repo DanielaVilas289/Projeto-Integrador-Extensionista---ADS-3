@@ -1,0 +1,50 @@
+#listagem table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+#listagem table tr {
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+}
+
+#listagem table tr:not(:first-child):hover {
+  box-shadow: 0px 2px 3px rgb(0, 0, 0, 0.3);
+}
+
+#listagem table col.id {
+  width: 5%;
+}
+
+#listagem table col.nome {
+  width: 45%;
+}
+
+#listagem table col.formacao {
+  width: 33%;
+}
+
+#listagem table col.especialidade {
+  width: 17%;
+}
+
+#listagem table th,
+#listagem table td {
+  text-align: left;
+}
+
+#listagem a,
+#listagem th {
+  padding: 5px 10px;
+}
+
+#listagem a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+  box-sizing: border-box;
+}
